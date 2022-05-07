@@ -15,7 +15,7 @@ top: 20px;
     position: absolute;
     width: 226px;
     height: 113px;
-    left: 10%;
+    left: 100px;
     top: 20px;
     
     background: url(./images/Logo.png);
@@ -127,11 +127,10 @@ top: 21px;
 background: url(./images/ico_search.png);
 }
 .subbanner{
-    position: absolute;
+    position: relative;
 width: 1920px;
 height: 190px;
 left: 0px;
-top: 850px;
 background: #FFFFFF;
 }
 .r1 {
