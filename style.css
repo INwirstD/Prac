@@ -8,14 +8,13 @@ body {
     position: absolute;
 width: 1127px;
 height: 113px;
-left: 388px;
 top: 20px;
 }
 .logo{
     position: absolute;
     width: 226px;
     height: 113px;
-    left: 100px;
+    left: 394px;
     top: 20px;
     
     background: url(./images/Logo.png);
@@ -314,3 +313,157 @@ position:relative;
 left: 1580px;
 top: 15px;
 }
+.head1{
+    position: relative;
+width: 1920px;
+height: 122px;
+}
+.banner2{
+    position: relative;
+width: 1920px;
+height: 480px;
+}
+.tomateallbody1{
+    position: relative;
+width: 1112px;
+height: 530px;
+left: 405px;
+top: 50px;
+}
+.tallb1label{
+    font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 44px;
+line-height: 142.7%;
+
+color: #324950;
+}
+.crd2{
+    color: #1ca038;
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.tallb2{
+    font-family: 'Roboto';
+font-size: 18px;
+line-height: 162.7%;
+color: #324950;
+}
+.tallb3{
+    font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 162.7%;
+color: #324950;
+margin-top: 50px;
+}
+.addvi1{
+    position: relative;
+width: 1920px;
+height: 610px;
+background-color:  #EDEDED;
+}
+.addvi1label{
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    text-align: center;
+    color: #324950;
+
+    position: relative;
+    top: 40px;
+    
+}
+.underadd1{
+    position: relative;
+width: 1082px;
+height: 330px;
+left: 422px;
+top: 70px;
+
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 162.7%;
+}
+.lineallt{
+    position: absolute;
+    top: 10px;
+    left: -10px;
+    width: 0px;
+    height: 170px;
+    border: 0.8px solid #D0D6D8;
+}
+.institute{
+    position: relative;
+width: 1920px;
+height: 321px;
+background: #EDEDED;
+}
+.instlabel{
+    font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 172.7%;
+text-align: center;
+color: #324950;
+position: relative;
+top: 30px;
+}
+.instimg{
+    position: relative;
+margin-left: 400px;
+margin-right: 400px;
+}
+.img8{
+    position: relative;
+    top: 76px;
+    left: 20px;
+}
+.img9{
+    position: relative;
+    top: 80px;
+    left: 20px;
+}
+.img10{
+    position: relative;
+    top: 55px;
+    left: 20px;
+}
+.underinst{
+    position: relative;
+    width: 1920px;
+    height: 116px;
+}
+.underunderi{
+    position: relative;
+    width: 938px;
+    height: 55px;
+    left: 491px;
+    top: 20px;
+}
+.textuur{
+    font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 152.7%;
+text-transform: uppercase;
+color: #000000;
+}
+
+a {
+    color: #324950; /* Цвет ссылок */
+   }
+a:visited {
+    color: #324950; /* Цвет посещенных ссылок */
+   }
+a:active {
+    color: #324950; /* Цвет активных ссылок */
+   }
