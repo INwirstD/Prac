@@ -279,7 +279,6 @@ ul.hrfoot li{
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
-line-height: 142.7%;
 color: #FFFFFF;
 
 position: relative;
@@ -299,20 +298,20 @@ bottom: 22px;
 position:relative;
 width: 1920px;
 height: 51px;
-left: 0px;
 background: #324950;
 }
 .foot2text{
+    position:absolute;
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
-line-height: 142.7%;
 color: #B9B9B9;
-position:relative;
+
 left: 1580px;
 top: 15px;
 }
+
 .head1{
     position: relative;
 width: 1920px;
@@ -467,3 +466,235 @@ a:visited {
 a:active {
     color: #324950; /* Цвет активных ссылок */
    }
+.bannertall{
+    position: relative;
+    width: 1920px;
+height: 480px;
+}
+.bdall{
+    position: relative;
+    width: 1920px;
+height: 2200px;
+    background-color: #FCF0F0;
+}
+.bdalltitle{
+    font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 44px;
+
+color: #324950;
+}
+.bdalltext{
+    font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+color: #324950;
+
+position: relative;
+margin-bottom: 20px;
+}
+.linebd{
+    position: absolute;
+width: 4px;
+height: 60px;
+background: #EB5757;
+border-radius: 4px;
+}
+.bda{
+    position: relative;
+    left: 30px;
+    margin-right: 30px;
+}
+.bdall2{
+    position: relative;
+width: 1152px;
+height: 330px;
+top: 60px;
+left: -20px;
+
+
+background: #FFFAFA;
+}
+.bdall2coll{
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px; 
+    color: #324950;
+}
+.linedb2ll{
+    position: relative;
+width: 350px;
+height: 0px;
+top: 20 px;
+border: 1px solid #99b2b9;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.bdall2col{
+    font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+color: #324950;
+}
+.dball2move{
+    position: relative;
+    left: 10px;
+    right: 10px;
+    top:40px;
+}
+.linebd2{
+    position: absolute;
+    width: 4px;
+height: 40px;
+background: #EB5757;
+border-radius: 4px;
+top:-8px;
+
+}
+.bdallmove2{
+    position: relative;
+    top: 90px;
+}
+.tomatesback{
+    position: relative;
+    width: 350px;
+    height: 321px;
+    top: 100px;
+    
+}
+.tomaterec{
+    position: relative;
+    width: 350px;
+height: 69px;
+background: #FFFFFF;
+top:-60px;
+}
+.tomatetxt{
+    font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+text-align: center;
+color: #57984C;
+}
+.tomateinstock{
+    position: relative;
+    top:40px;
+}
+.toneb{
+    position: relative;
+width: 1920px;
+height: 1200px;
+background: #f3f3f3;
+}
+.tonebimg{
+    position: absolute;
+width: 1448.11px;
+height: 1332.05px;
+left: 235.88px;
+opacity: 0.8;
+color: #57984C;
+}
+.toneback{
+    font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+color: #57984C;
+position: relative;
+top: -40px;
+
+}
+.tonelabel{
+    font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 54px;
+
+color: #324950;
+}
+.tonelabelgreen{
+    color: #27812c;
+}
+.Verytome{
+    font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+
+color: #CF2333;
+position: relative;
+margin-left: 70px;
+margin-right: 70px;
+}
+.tanechara{
+    font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+color: #57984C;
+position: relative;
+top: 30px;
+}
+.toneline{
+    position: relative;
+width: 220px;
+height: 0px;
+top:35px;
+border: 1px solid #57984C;
+}
+.tonecharatext{
+    font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+color: #324950;
+position: relative;
+top:50px;
+
+}
+.dpdf{
+    position: relative;
+    top: 20px;
+    left: 240px;
+}
+.nametone{
+    font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+color: #57984C;
+}
+.listtone{
+    font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+color: #324950;
+position: relative;
+top:30px;
+}
+.sectonemove{
+    position: relative;
+    top:50px;
+}
+.lmove222{
+    position: relative;
+    top:-20px;
+}
+a.ahu, 
+a.ahu:visited ,
+a.ahu:active {
+    text-decoration: none;
+    color: #147229;
+}
+a.ah, 
+a.ah:visited ,
+a.ah:active {
+    text-decoration: none;
+    color: #57984C;
+}
