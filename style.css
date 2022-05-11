@@ -11,28 +11,26 @@ height: 113px;
 top: 20px;
 }
 .logo{
-    position: absolute;
+    position: relative;
     width: 226px;
     height: 113px;
-    left: 394px;
+    left: 20%;
     top: 20px;
-    
     background: url(./images/Logo.png);
     mix-blend-mode: darken;  
 }
 .banner{
-width: 1920px;
-height: 850px;
+width: 100%;
+height: 40%;
+
 background: url(./images/bg.png);
 
 }
 .butlist{position: absolute;
     width: 499px;
     height: 26px;
-    left: 1016px;
+    right: 20%;
     top: 91px;
-    
-
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -46,31 +44,24 @@ ul.hrlogo li{
 .search{
     position: absolute;
 width: 350px;
-height: 29px;
-left: 0px;
+height: 60px;
+right:20%;
 top: 20px;
 
 }
 .searchtext{
     position: absolute;
-width: 52px;
-height: 21px;
-left: 1165px;
-top: 20px;
-
 font-family: 'Roboto Slab';
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
-line-height: 21px;
-
+top: 20px;
 color: #324950;
 }
 .line {
     position: absolute;
 width: 350px;
 height: 0px;
-left: 1165px;
 top: 49px;
 
 /* Text color */
@@ -121,13 +112,13 @@ color: #735440;
     position: absolute;
 width: 18px;
 height: 18px;
-left: 1497px;
+right: 0%;
 top: 21px;
 background: url(./images/ico_search.png);
 }
 .subbanner{
     position: relative;
-width: 1920px;
+width: 100%;
 height: 190px;
 left: 0px;
 background: #FFFFFF;
@@ -155,7 +146,7 @@ background: #FFFFFF;
 }
 .vision{
     position: relative;
-width: 1920px;
+width: 100%;
 height: 1200.84px;
 background: #f3f3f3;
 background-image: url(./images/Union.png);
@@ -164,8 +155,8 @@ background-image: url(./images/Union.png);
 .r2{
     position: relative;
     top: 50px;
-    margin-right: 400px;
-    margin-left: 400px;
+    margin-right: 20%;
+    margin-left: 20%;
 }
 .vistext{
     position: absolute;
@@ -188,18 +179,18 @@ background-image: url(./images/Union.png);
 .r3{
     position: relative;
     top: 100px;
-    margin-right: 400px;
-    margin-left: 400px;
+    margin-right: 20%;
+    margin-left: 20%;
 }
 .r4{
     position: relative;
     top: 20px;
-    margin-right: 400px;
-    margin-left: 400px;
+    margin-right: 20%;
+    margin-left: 20%;
 }
 .mainbut{
     position: relative;
-width: 1920px;
+width: 100%;
 height: 640px;
 background: #EDEDED;
 }
@@ -269,7 +260,7 @@ margin-left: 25px;
 }
 .footer1{
     position: relative;
-width: 1920px;
+width: 100%;
 height: 76px;
 background: #2D3F45;
 }
@@ -288,15 +279,15 @@ top: 26px;
     margin-right: 40px;
 }
 .footimg{
-    position:relative;
+    position:absolute;
     width: 211.2px;
 height: 31.2px;
-left: 1640px;
+right: 1%;
 bottom: 22px;
 }
 .footer2{
 position:relative;
-width: 1920px;
+width: 100%;
 height: 51px;
 background: #324950;
 }
@@ -308,14 +299,14 @@ font-weight: 400;
 font-size: 14px;
 color: #B9B9B9;
 
-left: 1580px;
+right: 1%;
 top: 15px;
 }
 
 .head1{
     position: relative;
-width: 1920px;
-height: 122px;
+width: 100%;
+height: 160px;
 }
 .banner2{
     position: relative;
@@ -468,12 +459,12 @@ a:active {
    }
 .bannertall{
     position: relative;
-    width: 1920px;
+    width: 100%;
 height: 480px;
 }
 .bdall{
     position: relative;
-    width: 1920px;
+    width: 100%;
 height: 2200px;
     background-color: #FCF0F0;
 }
@@ -587,8 +578,8 @@ color: #57984C;
 }
 .toneb{
     position: relative;
-width: 1920px;
-height: 1200px;
+width: 100%;
+height: 150%;
 background: #f3f3f3;
 }
 .tonebimg{
@@ -697,4 +688,111 @@ a.ah:visited ,
 a.ah:active {
     text-decoration: none;
     color: #57984C;
+}
+.cubanner{
+    position: relative;
+width: 100%;
+height: 350px;
+}
+.bdconus{
+    position: relative;
+width: 100%;
+height: 1100px;
+background: #f3f3f3;
+}
+.labelconus{
+    font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 44px;
+color: #324950;
+}
+.conusblab{
+    font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+color: #324950;
+}
+.inputt{
+    font-size: 30px; 
+    border-radius: 10px;
+    border-style: none;
+    height: 60px;
+    margin-top: 10px;
+    width: 90%;
+}
+.conusb1{
+    position: relative;
+    margin-top: 40px;
+}
+.inputt2{
+    position: relative;
+    font-size: 30px; 
+    border-radius: 10px;
+    border-style: none;
+    margin-top: 10px;
+    width: 100%;
+    height: 60px;
+}
+.inputt3{
+    position: relative;
+    font-size: 30px; 
+    border-radius: 10px;
+    border-style: none;
+    margin-top: 10px;
+    width: 100%;
+    height: 340px;
+}
+.inputts{
+    position: relative;
+    font-size: 26px; 
+    border-radius: 10px;
+    border-style: none;
+    margin-top: 10px;
+    width: 30%;
+    left: 70%;
+    height: 10%;
+    background-color: #01813b;
+    color: #ffffff;
+}
+.upfootetus{
+    position: relative;
+width: 100%;
+height: 200px;
+background: #FFFFFF;
+}
+.ouraddr{
+    position: relative;
+    top: 20px;
+width: 288px;
+height: 162px;
+margin-left: 42%;
+margin-right: 42%;
+}
+.labour{
+    font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+color: #57984C;
+text-align: center;
+
+position: relative;
+}
+.labourline{
+    position: relative;
+    width: 183px;
+height: 0px;
+left: 50px;
+border: 1px solid #57984C;
+}
+.labourtext{
+    font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+text-align: center;
+color: #324950;
+position: relative;
 }
