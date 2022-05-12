@@ -1,0 +1,519 @@
+
+@media(max-width: 1500px){
+    .tomeimg22{
+        width: 400px;
+        height: 400px;
+    }
+    .tonelabel{
+    font-size: 40px;
+    }
+    .Verytome{
+    font-size: 24px;
+    }
+    .bdall2{
+    height: 440px;
+    }
+    .img4 {
+        position: relative;
+        width: 190px;
+        height: 140px;
+        margin-left: 10%;
+        }
+        .subtitlemb{
+        font-size: 22px;
+        }
+        .line2 {
+        width: 70%;
+        left: 55px;
+        }
+        .mbtext{
+        margin-right: 15%;
+        margin-left: 5%;
+        }
+        .crdtext{
+            margin-right: 15%;
+        }
+}
+@media(max-width: 1200px){
+    .tomeimg22{
+        width: 350px;
+        height: 350px;
+    }
+    .tonelabel{
+    font-size: 35px;
+    }
+    .Verytome{
+    font-size: 20px;
+    }
+    .bdall2{
+        height: 500px;
+        }
+        .bdall2coll{
+            width: 220px;
+        }
+        .img4 {
+            position: relative;
+            width: 160px;
+            height: 130px;
+            margin-left: 10%;
+            }
+            .subtitlemb{
+            font-size: 20px;
+            }
+            .line2 {
+            width: 70%;
+            left: 55px;
+            }
+            .mbtext{
+            margin-right: 10%;
+            margin-left: 25%;
+            }
+}
+@media(max-width: 1024px){
+    .search{
+    top: 20px;
+    right: 5%;
+    }
+    .searchtext{
+    top: 20px;
+    }
+    .line {
+        position: absolute;
+    width: 350px;
+    height: 0px;
+    top: 49px;
+    
+    border: 1px solid #324950;
+    }
+    .butlist{position: absolute;
+        width: 499px;
+        height: 26px;
+        right: 5%;
+        top: 91px;
+        }
+    ul.hrlogo li{
+        display: inline;
+    }
+    .logo{
+        position: absolute;
+        width: 226px;
+        height: 113px;
+        margin: 0 auto;
+        left:5%;
+        top: 20px;
+    }
+    .r2{
+        position: relative;
+        top: 50px;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    .hrfoot{
+margin-right: 25%;
+    }
+    .footer1{
+    height: 100px;
+    }
+    .bdall2{
+        height: 450px;
+        }
+        .r1 {
+            margin-right: 2%;
+            margin-left: 2%;
+        }
+        .r4{
+            margin-right: 2%;
+            margin-left: 2%; 
+        }
+        .mainbut{
+            height: 540px;
+        }
+        .vision{
+            height: 900px;
+        }
+}
+
+@media(max-width: 768px){
+    .search{
+        position: absolute;
+    width: 350px;
+    height: 60px;
+    top: 200px;
+    right:5%;}
+    .head1{
+        position: relative;
+    width: 100%;
+    height: 360px;
+    }
+.butlist{position: absolute;
+    margin: 0 auto;
+    top: 291px;
+    }
+        .logo{
+            position: absolute;
+            width: 226px;
+            height: 113px;
+            right:5%;
+            top: 20px;
+            
+        }
+
+        .ouraddr{
+        margin-left: 25%;
+        margin-right: 25%;}
+
+        .inputt{
+            position: relative;
+            font-size: 18px; 
+            border-radius: 10px;
+            border-style: none;
+            height: 36px;
+            margin-top: 10px;
+            width: 90%;
+        }
+        .inputt2{
+            position: relative;
+            font-size: 18px; 
+            border-radius: 10px;
+            border-style: none;
+            margin-top: 10px;
+            width: 100%;
+            height: 36px;
+        }
+        .inputt3{
+            position: relative;
+            font-size: 18px; 
+            border-radius: 10px;
+            border-style: none;
+            margin-top: 10px;
+            width: 100%;
+            height: 260px;
+        }
+        .inputts{
+            position: relative;
+            font-size: 20px; 
+            border-radius: 10px;
+            border-style: none;
+            margin-top: 10px;
+            width: 20%;
+            right: 0%;
+            height: 7%;
+            background-color: #01813b;
+            color: #ffffff;
+        }
+        .toneb{
+            height: 1700px;
+            }
+            .bdall2{
+                height: 520px;
+                }
+                .tomatetxt{
+                    font-size: 15px;
+                }
+.titlelogo{
+    top: 400px;
+    font-size: 30px;
+}
+.buttonrm{
+    top: 450px;
+}
+.producttext{
+    width: 100px;
+    margin-bottom: 20px;
+}
+.subbanner{
+    height: 360px;
+}
+.vistext{
+    position: relative;
+    top: 20px;
+    color: #324950;
+}
+.img4 {
+    position: relative;
+    width: 370px;
+    height: 230px;
+    margin-left: 25%;
+    }
+    .subtitlemb{
+    font-size: 20px;
+    text-align: center;
+    }
+    .line2 {
+    width: 70%;
+    margin-left: 10%;
+    }
+    .mbtext{
+    margin-right: 30%;
+    margin-left: 30%;
+    }    
+    .mainbut{
+        height: 1300px;
+    }   
+}
+@media(max-width: 640px){
+    .inputt{
+        position: relative;
+        font-size: 18px; 
+        border-radius: 10px;
+        border-style: none;
+        height: 36px;
+        margin-top: 10px;
+        width: 400px;
+    }
+    .inputt2{
+        position: relative;
+        font-size: 18px; 
+        border-radius: 10px;
+        border-style: none;
+        margin-top: 10px;
+        width: 400px;
+        height: 36px;
+    }
+    .inputt3{
+        position: relative;
+        font-size: 18px; 
+        border-radius: 10px;
+        border-style: none;
+        margin-top: 10px;
+        width: 400px;
+        height: 260px;
+    }
+    .inputts{
+        position: relative;
+        font-size: 20px; 
+        border-radius: 10px;
+        border-style: none;
+        margin-top: 10px;
+        width: 20%;
+        right: 0%;
+        height: 7%;
+        background-color: #01813b;
+        color: #ffffff;
+    }
+    .bdconus{
+    height: 1600px;
+    }
+    .tomeimg22{
+        width: 350px;
+        height: 350px;
+        margin-top: 50px;
+    }
+    .toneb{
+        height: 1900px;
+        }
+        .nametone{
+            margin-top: 15px;
+        }
+        .bdall2coll{
+            width: 400px;
+        }
+        .bdall2{
+            height: 600px;
+            }
+            .bdall{
+                height: 2500px;}
+                .vistext{
+                    width: 350px;
+                    margin-bottom: 30px;
+                }
+                .imgcrd{
+                    width: 350px;
+                }
+                .vision{
+                    height: 1400px;
+                }
+                
+}
+@media(max-width: 480px){
+    .inputt{
+        width: 350px;
+    }
+    .inputt2{
+        width: 350px;
+    }
+    .inputt3{
+        width: 350px;
+    }
+    .inputts{
+        width: 20%;
+    }
+    .ouraddr{
+    margin-left: 10%;
+    margin-right: 10%;}
+    .hrfootli2{
+        margin-right: 2%;
+        margin-left: 10%;
+    }
+    .head1{
+    height: 380px;
+    }
+    .footer1{
+        height: 160px;
+        }
+    .hrfoot{
+        margin-right: 1%;
+    }
+    .footimg{
+    left: 20%;
+    bottom: 10px;
+    }
+.toneb{
+    height: 2000px;
+    }
+    .nametone{
+        margin-top: 15px;
+    }
+    .bdall2coll{
+        width: 300px;
+    }
+    .bdall2{
+        height: 730px;
+        }
+        .backtomatesback{
+            width: 360px;
+            height: 360px;
+        }
+        .tomaterec{
+            width: 360px;
+        }
+        .tomatetxt{
+            font-size: 19px;
+        }
+.bdall{
+    height: 5750px;
+}
+.img4 {
+    position: relative;
+    width: 340px;
+    height: 210px;
+    margin-left: 0%;
+    }
+    .subtitlemb{
+        font-size: 20px;
+        text-align: center;
+        }
+        .line2 {
+        width: 70%;
+        margin-left: 5%;
+        }
+        .mbtext{
+        margin-right: 10%;
+        margin-left: 10%;
+        }    
+        .mainbut{
+            height: 1300px;
+        }   
+        .producttext{
+            width:  130px;
+        }
+        .subbanner{
+            height: 600px;
+
+        }
+        .buttonrm{
+            left:30%
+        }
+
+}
+@media(max-width: 400px){
+    .search{
+    width: 320px;
+    }
+    .line {
+        position: absolute;
+    width: 320px;
+}
+.inputt{
+    width: 300px;
+}
+.inputt2{
+    width: 300px;
+}
+.inputt3{
+    width: 300px;
+}
+.bdall2{
+    height: 850px;
+    }
+    .backtomatesback{
+        width: 300px;
+        height: 300px;
+    }
+    .tomaterec{
+        width: 300px;
+    }
+    .tomatetxt{
+        font-size: 19px;
+    }
+.bdall{
+height: 5650px;
+}
+.img4 {
+    width: 260px;
+    height: 170px;
+    margin-left: 0%;
+    }
+    .imgcrd{
+        width: 260px;
+    }
+}
+@media(max-width: 320px){
+    .search{
+        width: 260px;
+        }
+        .line {
+        width: 260px;
+    }
+    .inputt{
+        width: 270px;
+    }
+    .inputt2{
+        width: 270px;
+    }
+    .inputt3{
+        width: 270px;
+    }
+    .hrfootli2{
+        margin-right: 2%;
+        margin-left: 20%;
+    }
+    .head1{
+        height: 400px;
+        }
+        .tomeimg22{
+            width: 250px;
+            height: 250px;
+        }
+        .toneb{
+            height: 2000px;
+            }
+            .tonelabel{
+                font-size: 30px;
+                }
+                .Verytome{
+                font-size: 18px;
+                }
+        .dpdf{
+            width: 250px;
+        }
+        .bdall2{
+            height: 1000px;
+            }
+            .backtomatesback{
+                width: 250px;
+                height: 250px;
+            }
+            .tomaterec{
+                width: 250px;
+            }
+            .tomatetxt{
+                font-size: 19px;
+            }
+        .bdall{
+        height: 5500px;
+        }
+       .vistext{
+           width: 250px;
+       }
+}
