@@ -373,7 +373,7 @@ margin-right: auto
         visibility: visible;
         }
     .footer1{
-        height: 250px;
+        height: 300px;
     }
     .footimg{
         position:relative;
@@ -409,14 +409,6 @@ margin-right: auto
         margin-right: 20%;
         margin-left: 0%;
         visibility: hidden;
-    }
-
-    .footer1{
-        height: 160px;
-        }
-    .footimg{
-    left: 20%;
-    bottom: 10px;
     }
 .toneb{
     height: 2000px;
