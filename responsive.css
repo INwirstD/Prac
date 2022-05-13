@@ -425,11 +425,18 @@ margin-right: auto
         height: 730px;
         }
         .backtomatesback{
+            position: relative;
             width: 360px;
             height: 360px;
+            display: block;
+    margin-left: auto;
+    margin-right: auto
         }
         .tomaterec{
             width: 360px;
+            display: block;
+    margin-left: auto;
+    margin-right: auto
         }
         .tomatetxt{
             font-size: 19px;
