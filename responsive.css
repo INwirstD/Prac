@@ -17,21 +17,15 @@
         position: relative;
         width: 190px;
         height: 140px;
-        margin-left: 10%;
+        display: block;
+    margin-left: auto;
+    margin-right: auto 
         }
         .subtitlemb{
         font-size: 22px;
         }
         .line2 {
         width: 70%;
-        left: 55px;
-        }
-        .mbtext{
-        margin-right: 15%;
-        margin-left: 5%;
-        }
-        .crdtext{
-            margin-right: 15%;
         }
 }
 @media(max-width: 1200px){
@@ -55,18 +49,12 @@
             position: relative;
             width: 160px;
             height: 130px;
-            margin-left: 10%;
             }
             .subtitlemb{
             font-size: 20px;
             }
             .line2 {
             width: 70%;
-            left: 55px;
-            }
-            .mbtext{
-            margin-right: 10%;
-            margin-left: 25%;
             }
 }
 @media(max-width: 1024px){
@@ -82,7 +70,7 @@
     width: 350px;
     height: 0px;
     top: 49px;
-    
+        
     border: 1px solid #324950;
     }
     .butlist{position: absolute;
@@ -93,14 +81,6 @@
         }
     ul.hrlogo li{
         display: inline;
-    }
-    .logo{
-        position: absolute;
-        width: 226px;
-        height: 113px;
-        margin: 0 auto;
-        left:5%;
-        top: 20px;
     }
     .r2{
         position: relative;
@@ -131,31 +111,57 @@ margin-right: 25%;
         .vision{
             height: 900px;
         }
+        .logo{
+            margin-left: 5%;
+        }
 }
 
 @media(max-width: 768px){
+    .logo{
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
     .search{
-        position: absolute;
-    width: 350px;
-    height: 60px;
-    top: 200px;
-    right:5%;}
+        position: relative;
+    top: 30px;
+    right:0%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto ;
+}
+.searchtext{
+    position: absolute;
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+top: 20px;
+color: #324950;
+}
+.line {
+    position: absolute;
+width: 350px;
+height: 0px;
+top: 49px;
+}
     .head1{
         position: relative;
     width: 100%;
-    height: 360px;
+    height: 320px;
     }
-.butlist{position: absolute;
-    margin: 0 auto;
-    top: 291px;
+.butlist{position: relative;
+    top: 151px;
+    width: 499px;
+    height: 26px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto ;
     }
         .logo{
-            position: absolute;
             width: 226px;
             height: 113px;
-            right:5%;
             top: 20px;
-            
         }
 
         .ouraddr{
@@ -211,18 +217,18 @@ margin-right: 25%;
                     font-size: 15px;
                 }
 .titlelogo{
-    top: 400px;
+    top: 100px;
     font-size: 30px;
 }
 .buttonrm{
-    top: 450px;
+    top: 130px;
 }
-.producttext{
-    width: 100px;
-    margin-bottom: 20px;
+.banner{
+    height: 520px;
 }
+
 .subbanner{
-    height: 360px;
+    height: 280px;
 }
 .vistext{
     position: relative;
@@ -233,7 +239,6 @@ margin-right: 25%;
     position: relative;
     width: 370px;
     height: 230px;
-    margin-left: 25%;
     }
     .subtitlemb{
     font-size: 20px;
@@ -241,15 +246,16 @@ margin-right: 25%;
     }
     .line2 {
     width: 70%;
-    margin-left: 10%;
     }
-    .mbtext{
-    margin-right: 30%;
-    margin-left: 30%;
-    }    
     .mainbut{
         height: 1300px;
     }   
+    .bannertall{
+        height:fit-content;
+    }
+    .mainbuttitle{
+        font-size: 30px;
+    }
 }
 @media(max-width: 640px){
     .inputt{
@@ -323,9 +329,67 @@ margin-right: 25%;
                 .vision{
                     height: 1400px;
                 }
-                
+                .hrlogo{
+                    visibility: hidden;
+                }
+    .butlist{
+        width: 399px;
+        visibility: hidden;
+    }
+    .inputtMENU{
+        visibility: visible;
+    }
+    .head1{
+    height: 340px;
+    }
+    .productimg{
+        width: 200px;
+    }
+    .imgcrd{
+        display: block;
+margin-left: auto;
+margin-right: auto 
+    }
+    .vistext{
+        text-align: center;
+        display: block;
+    margin-left: auto;
+    margin-right: auto 
+    }
+    .crdtext{
+        margin-right:0 ;
+    }
+    .subbanner        {
+        height: 450px;
+    }
+    .butlist{
+        width: 100px;
+    }
+    ul.hrfoot li{
+    visibility: hidden;
+    position: absolute;
+    }
+    ul.hrfoot2 li{
+        visibility: visible;
+        }
+    .footer1{
+        height: 250px;
+    }
+    .footimg{
+        position:relative;
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top:20px;
+    }
 }
 @media(max-width: 480px){
+    .vistext{
+        text-align: center;
+    }
+    .crdtext{
+        margin-right:0 ;
+    }
     .inputt{
         width: 350px;
     }
@@ -342,18 +406,14 @@ margin-right: 25%;
     margin-left: 10%;
     margin-right: 10%;}
     .hrfootli2{
-        margin-right: 2%;
-        margin-left: 10%;
+        margin-right: 20%;
+        margin-left: 0%;
+        visibility: hidden;
     }
-    .head1{
-    height: 380px;
-    }
+
     .footer1{
         height: 160px;
         }
-    .hrfoot{
-        margin-right: 1%;
-    }
     .footimg{
     left: 20%;
     bottom: 10px;
@@ -387,7 +447,6 @@ margin-right: 25%;
     position: relative;
     width: 340px;
     height: 210px;
-    margin-left: 0%;
     }
     .subtitlemb{
         font-size: 20px;
@@ -395,26 +454,22 @@ margin-right: 25%;
         }
         .line2 {
         width: 70%;
-        margin-left: 5%;
         }
-        .mbtext{
-        margin-right: 10%;
-        margin-left: 10%;
-        }    
         .mainbut{
-            height: 1300px;
+            height: 1100px;
         }   
-        .producttext{
-            width:  130px;
-        }
         .subbanner{
-            height: 600px;
+            height: 750px;
 
         }
-        .buttonrm{
-            left:30%
+        .productimg{
+            width: 200px;
         }
-
+        .imgcrd{
+            display: block;
+    margin-left: auto;
+    margin-right: auto 
+        }
 }
 @media(max-width: 400px){
     .search{
@@ -452,7 +507,6 @@ height: 5650px;
 .img4 {
     width: 260px;
     height: 170px;
-    margin-left: 0%;
     }
     .imgcrd{
         width: 260px;

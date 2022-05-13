@@ -14,7 +14,7 @@ top: 20px;
     position: relative;
     width: 226px;
     height: 113px;
-    left: 20%;
+    margin-left: 20%;
     top: 20px;
     background: url(./images/Logo.png);
     mix-blend-mode: darken;  
@@ -34,8 +34,8 @@ background: url(./images/bg.png);
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height: 26px;
     text-align: right;
+    visibility: visible;
     
     color: #324950;}
 ul.hrlogo li{
@@ -73,8 +73,10 @@ border: 1px solid #324950;
     height: 60px;
 position: relative;
 top: 300px;
-left:45%;
 background: #57984C;
+display: block;
+    margin-left: auto;
+    margin-right: auto ;
 }
 .butrmtext{
     font-family: 'Roboto';
@@ -96,7 +98,6 @@ top:20px;
 }
 .titlelogo{
     position: relative;
-
 top: 250px;
 
 font-family: 'Roboto Slab';
@@ -130,19 +131,21 @@ background: #FFFFFF;
     font-family: 'Roboto Slab';
     font-style: normal;
     font-size: 20px;
-    margin-left: 20%;
-    margin-right: 23%;
+text-align: center;
     color: #324950; 
     position: relative;
-    top: 50px;
+    top: 30px;
+    margin-bottom: 20px;
 }
 .productimg {
+    position: relative;
     text-align: center;
     width:50px; 
     height:50px;
-    position: relative;
-    margin-left: 25%;
-    top: 35px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto ;
+    top:20px;
 }
 .vision{
     position: relative;
@@ -218,14 +221,16 @@ font-weight: 700;
 font-size: 24px;
 color: #57984C;
 position: relative;
-margin-left: 50px;
+text-align: center;
 }
 .line2 {
     position: relative;
 width: 200px;
 height: 0px;
 border: 1px solid #53b458;
-left: 55px;
+display: block;
+    margin-left: auto;
+    margin-right: auto ;
 }
 .mbtext{
     font-family: 'Roboto Slab';
@@ -235,8 +240,6 @@ font-size: 18px;
 color: #324950;
 position: relative;
 text-align: center;
-margin-right: 30%;
-margin-left: 15%;
 }
 .footer1{
     position: relative;
@@ -254,6 +257,19 @@ color: #FFFFFF;
 
 position: relative;
 top: 26px;
+visibility: visible;
+}
+ul.hrfoot2 li{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+color: #FFFFFF;
+list-style-type: none;
+position: relative;
+top: 26px;
+visibility: hidden;
+text-align: center;
 }
 .hrfootli{
     margin-right: 40px;
@@ -802,4 +818,17 @@ position: relative;
 .movecrdd{
     position: relative;
     top: 100px;
+}
+.inputtMENU{
+    position: relative;
+    top: 40px;
+    font-size: 18px; 
+    border-style: none;
+    height: 22px;
+    width: 100px;
+    display: block;
+margin-left: auto;
+margin-right: auto; 
+visibility: hidden;
+background: transparent;
 }
