@@ -6,6 +6,7 @@
         <link rel ="stylesheet" href="style.css">
         <link rel ="stylesheet" href="responsive.css">
         <meta name="viewport" content="width=320, initial-scale=1.0"/>
+        <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
         <title>TomateOne</title>
     </head>
     <body>
@@ -27,6 +28,16 @@
                 <div class = "line"></div>
                 <div class="icoser"></div>
             </div>
+            <select name="theme" required="required"  class="inputtMENU" onchange="window.location.href=this.options[this.selectedIndex].value">
+                <option value="#">Navigation </option>
+                <option value="index.html">Home</option>
+                <option value="#">Company</option>
+                <option value="not tomate all.html">Profile</option>
+                <option value="tomate all.html">Products</option>
+                <option value="#">Services</option>
+                <option value="#">RnD</option>
+                <option value="contact us.html">Contact</option>
+              </select> 
         </div>
 
         <div class="toneb">
