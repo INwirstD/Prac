@@ -371,6 +371,7 @@ margin-right: auto
     }
     ul.hrfoot2 li{
         visibility: visible;
+        position: relative;
         }
     .footer1{
         height: 300px;
@@ -380,6 +381,7 @@ margin-right: auto
         display: block;
     margin-left: auto;
     margin-right: auto;
+    right: none;
     top:20px;
     }
 }
