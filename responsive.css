@@ -88,6 +88,23 @@
         margin-right: 5%;
         margin-left: 5%;
     }
+    .backtomatesback{
+        position: relative;
+        width: 360px;
+        height: 360px;
+        display: block;
+margin-left: auto;
+margin-right: auto
+    }
+    .bdall{
+        height: 2500px;
+    }
+    .tomaterec{
+        width: 360px;
+        display: block;
+margin-left: auto;
+margin-right: auto
+    }
     .hrfoot{
 margin-right: 25%;
     }
@@ -117,6 +134,9 @@ margin-right: 25%;
 }
 
 @media(max-width: 768px){
+    .bdall{
+        height: 3500px;
+    }
     .logo{
         display: block;
     margin-left: auto;
@@ -213,9 +233,6 @@ top: 49px;
             .bdall2{
                 height: 520px;
                 }
-                .tomatetxt{
-                    font-size: 15px;
-                }
 .titlelogo{
     top: 100px;
     font-size: 30px;
@@ -258,6 +275,9 @@ top: 49px;
     }
 }
 @media(max-width: 640px){
+    .bdall{
+        height: 3900px;
+    }
     .inputt{
         position: relative;
         font-size: 18px; 
@@ -317,8 +337,6 @@ top: 49px;
         .bdall2{
             height: 600px;
             }
-            .bdall{
-                height: 2500px;}
                 .vistext{
                     width: 350px;
                     margin-bottom: 30px;
@@ -438,9 +456,6 @@ margin-right: auto
     margin-left: auto;
     margin-right: auto
         }
-        .tomatetxt{
-            font-size: 19px;
-        }
 .bdall{
     height: 5750px;
 }
@@ -499,12 +514,7 @@ margin-right: auto
     .tomaterec{
         width: 300px;
     }
-    .tomatetxt{
-        font-size: 19px;
-    }
-.bdall{
-height: 5650px;
-}
+
 .img4 {
     width: 260px;
     height: 170px;

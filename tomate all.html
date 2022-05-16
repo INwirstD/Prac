@@ -1,12 +1,15 @@
 <!DOCTYPE HTML Public>
 <html>
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel ="stylesheet" href="style.css">
         <link rel ="stylesheet" href="responsive.css">
+        
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+        <script src="./js/main.js"></script>
+
         <meta name="viewport" content="width=320, initial-scale=1.0"/>
-        <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
         <title>TomateALL</title>
     </head>
     <body>
@@ -41,7 +44,7 @@
         </div>
 
         
-        <img src="./images/image3213.png" class ="bannertall">   
+        <img src="./js/img/mdmain.jpg" class ="bannertall">   
         <div class ="bdall">
             <div class="r2">
                 <div class="bdalltitle"> Agridera Fresh Market Tomato Hybrids</div>
@@ -78,24 +81,30 @@
            <div class="bdallmove2"> <div class="bdalltext"><div class="linebd2"></div><div class="bda"><b>Agridera operates through international and local distributers around the world.</b></div></div></div>
 
            <!--перечень помидоров-->
+
         <div class="tomatestock">
-            <div class="row">
-                <div class="col">
-                    <div class ="tomatesback">
-                        <img src="./images/tomate1.png" class="backtomatesback">
+            
+            <div class="row"  id="app" >
+                
+                <div class="col" v-for="p in products" v-if="products">
+                    <div class ="tomatesback" >
+                        <img :src="'./js/img/'+p.image" class="backtomatesback">
                         <div class="tomaterec">
-                            <div class="tomatetxt"> 
-                                <b>TAG 1000 (TAG 853)</b> <p>Tomato Determinate Red Standard Round</p>
+                            <div class="tomatetxt" > 
+                                <b>{{p.title}}</b> <p>{{p.short_text}}</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                
+            </div>
+
+                <!--<div class="col">
                     <div class ="tomatesback">
                         <img src="./images/tomate2.png" class="backtomatesback">
                         <div class="tomaterec">
                             <div class="tomatetxt"> 
-                                <b>TAG 1001 (TAG 855)</b> <p>Determinate Red Standard Round</p>
+                                <b>{{p.title}}</b> <p>{{p.short_text}}</p>
                             </div>
                         </div>
                     </div>
@@ -105,13 +114,15 @@
                         <a href="tomate one.html" title="Переход на Tomate TAG 1002"><img src="./images/tomate3.png" class="backtomatesback"></a>
                         <div class="tomaterec">
                             <div class="tomatetxt"> 
-                                <b>TAG 1002 (TAG 809)</b><p>Determinate Red Standard Round</p>
+                                <b>{{p.title}}</b><p>{{p.short_text}}</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <!--Вторая строка-->
+        </div> -->
+
+            <!--Вторая строка
             <div class="tomateinstock">
             <div class="row">
                 <div class="col">
@@ -145,20 +156,22 @@
                     </div>
                 </div>
             </div>
-            </div>
-            <!--Третяя строка-->
+            </div>-->
+            <!--Третяя строка
+             
             <div class="tomateinstock">
             <div class="tomateinstock">
             <div class="row">
-                <div class="col">
+                <div class="col" >
                     <div class ="tomatesback">
                         <img src="./images/tomate7.png" class="backtomatesback">
                         <div class="tomaterec">
                             <div class="tomatetxt"> 
-                                <b>TAG 1006 (TAG 898)</b> <p>Determinate Red Elongated</p>
+                                <b>TAG 1006 (TAG 816)</b> <p>Determinate Red Elongated</p>
+
                             </div>
                         </div>
-                    </div>
+                </div>
                 </div>
                 <div class="col">
                     <div class ="tomatesback">
@@ -171,10 +184,13 @@
                     </div>
                 </div>
                 <div class="col">
-                
+                    <div class ="tomatesback">
+                        <div class="backtomatesback"></div>
+                    </div>
+                    
                 </div>
             </div>
-            </div>
+            </div>-->
         </div>
 
         </div>
@@ -183,6 +199,7 @@
         <!--рамки-->
         </div>
         </div>
+        
 
         <div class ="footer1">
             <ul class="hrfoot">

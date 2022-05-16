@@ -461,8 +461,8 @@ height: 480px;
 .bdall{
     position: relative;
     width: 100%;
-height: 2400px;
-    background-color: #FCF0F0;
+height: 1700px;
+    background-color: #faeee3;
 }
 .bdalltitle{
     font-family: 'Roboto Slab';
@@ -557,9 +557,9 @@ top:-8px;
 .tomaterec{
     position: relative;
     width: 100%;
-height: 100px;
+height: 40px;
 background: #FFFFFF;
-top:-100px;
+top:-30px;
 }
 .tomatetxt{
     font-family: 'Roboto Slab';
