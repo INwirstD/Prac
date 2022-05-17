@@ -19,7 +19,7 @@ window.onload = function () {
             mounted: function() {
                 console.log(window.localStorage.getItem('prod')),
                 this.getProduct();
-                this.checkInCart();
+
             },
             methods: {
                 addItem: function(id){
@@ -34,7 +34,13 @@ window.onload = function () {
                             }
                         }
                     }
+                    
                 },
+                
+            del: function (index) {
+                this.list.splice(index, 1);
+            },
+
                 addToCart:function(id){
                     
                     var cart = [];
