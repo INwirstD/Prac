@@ -5,6 +5,10 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel ="stylesheet" href="style.css">
         <link rel ="stylesheet" href="responsive.css">
+
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+        <script src="./js/main.js"></script>
+
         <meta name="viewport" content="width=320, initial-scale=1.0"/>
         <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
         <title>TomateOne</title>
@@ -40,16 +44,17 @@
               </select> 
         </div>
 
-        <div class="toneb">
+        <div class="toneb" id="app">
             <img class="tonebimg"src="./images/Union2.png">
             <!--R2-->
             <div class="r2">
             <div class="toneback">
                 <a href="tomate all.html" class="ahu">&#8592; &nbsp; &nbsp;   Return to all tomatoes</a>
             </div>
-            <div class="row">
-                <div class="col">
-                    <div class="tonelabel">TAG 1002 (TAG 809) <p class="tonelabelgreen">Tomato Determinate Red Standard Round</p></div>
+            <div class="row" >
+                <div class="col" >
+                        <div class="tonelabel">{{product.title}} <p class="tonelabelgreen">{{product.desc}}</p></div>
+                    
                     <div class="crd2">*****</div>
                     <div class="row">
                         <div class="col-1"> <img src="./images/tomeimg.png" width="100px" height="100px"></div>
@@ -57,33 +62,36 @@
                     </div>
                     <div class="tanechara">CHARACTERISTICS</div>
                     <div class="toneline"></div>
-                    <div class="tonecharatext"><b>Resistance HR:</b> <p>ToMV:0-2; Fol: 1,2; Ve/Vd;<br>IR: TYLCV</p> </div>
+                    <div class="tonecharatext">{{product.char}}</div>
                 </div>
                 <!--Второй столбец-->
                 <div class="col">
-                   <img src="./images/tomateone.jpg" class="tomeimg22">
-                   <img class="dpdf" src="./images/Btn download pdf.png" >
+                   <img :src="'./js/img/'+product.image" class="tomeimg22">
+                   <div class="dpdf">
+                       <button><a href="#" @click.prevent="addToCart(product.id)" v-if="!btnVisible">Add to cart</a></button>
+                       <button><a href="tomate_one.html"  v-if="btnVisible">Go to cart</a></button>
+                   </div>
                 </div>
                 </div>
                 <!--Вторая часть-->
             <div class ="sectonemove">
-            <div class="row">
-                <div class="col">
+            <div class="row" >
+                <div class="col" id="app">
                     <div class="nametone">Plant</div>
                     <div class="lmove222"><div class="toneline"></div></div>
                     <ul class="listtone">
-                        <li>Strong vigor that provides good leaf coverage.</li>
-                        <li> Very high productivity with good fruit setting.</li>
-                        <li>Early matured variety.</li>
+                        <li>{{product.plant1}}</li>
+                        <li> {{product.plant2}}</li>
+                        <li>{{product.plant3}}</li>
                     </ul>
                 </div>
-                <div class="col">
+                <div class="col" id="app">
                     <div class="nametone">Cycle</div>
                     <div class="lmove222"><div class="toneline"></div></div>
                     <ul class="listtone">
-                        <li>Spring</li>
-                        <li>Fall</li>
-                        <li>Winter</li>
+                        <li>{{product.cycle1}}</li>
+                        <li>{{product.cycle1}}</li>
+                        <li>{{product.cycle1}}</li>
                     </ul>
                 </div>
             </div>
@@ -91,22 +99,22 @@
         <div class ="sectonemove">
             <div class ="sectonemove">
             <div class="row">
-                <div class="col">
+                <div class="col" id="app">
                     <div class="nametone">Fruit</div>
                     <div class="lmove222"><div class="toneline"></div></div>
                     <ul class="listtone">
-                        <li>Long shelf life on plant and post harvest.</li>
-                        <li> Nice shiny attractive deep red color.</li>
-                        <li> Average fruit size: 140 – 160 grams.</li>
+                        <li>{{product.fruit1}}</li>
+                        <li> {{product.fruit2}}</li>
+                        <li> {{product.fruit3}}</li>
                     </ul>
                 </div>
-                <div class="col">
+                <div class="col" id="app">
                     <div class="nametone">Cycle</div>
                     <div class="lmove222"><div class="toneline"></div></div>
                     <ul class="listtone">
-                        <li>Red</li>
-                        <li>Green</li>
-                        <li>Orange</li>
+                        <li>{{product.cycle2}}</li>
+                        <li>{{product.cycle2}}</li>
+                        <li>{{product.cycle2}}</li>
                     </ul>
                 </div>
             </div>

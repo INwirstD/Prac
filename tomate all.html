@@ -86,9 +86,9 @@
             
             <div class="row"  id="app" >
                 
-                <div class="col" v-for="p in products" v-if="products">
+                <div class="col" v-for="p in products" v-if="products"   >
                     <div class ="tomatesback" >
-                        <img :src="'./js/img/'+p.image" class="backtomatesback">
+                        <a :href="'tomate one.html#'+p.id"><img :src="'./js/img/'+p.image" class="backtomatesback"></a>
                         <div class="tomaterec">
                             <div class="tomatetxt" > 
                                 <b>{{p.title}}</b> <p>{{p.short_text}}</p>
