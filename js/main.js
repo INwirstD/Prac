@@ -13,12 +13,18 @@ window.onload = function () {
                 {id:3, title: "Swatow", char:'-', image:'md3.jpg', desc:"Good mandarine"},
                 {id:4, title: "Mikan", char:'-', image:'md4.jpg', desc:"Good mandarine"},
                 {id:5, title: "Clementine", char:'-', image:'md5.jpg', desc:"Good mandarine"}],   
+
+                contactFields: [],
+                cart: [],
+                cartb: [],
                 btnVisible : false          
             },
             
             mounted: function() {
                 console.log(window.localStorage.getItem('prod')),
                 this.getProduct();
+                this.getCart();
+                
 
             },
             methods: {
@@ -36,7 +42,20 @@ window.onload = function () {
                     }
                     
                 },
-                
+                getCart: function(){
+                    this.cartb = window.localStorage.getItem('cart');
+                    for(p in this.cartb){
+                    for(i in this.products){
+                         if(p == i){
+                         this.cart[p] = this.products[i];
+                        
+                        }
+                         
+                        }
+                        
+                    }
+                            
+                },
             del: function (index) {
                 this.list.splice(index, 1);
             },
@@ -47,9 +66,8 @@ window.onload = function () {
                     
                     if(window.localStorage.getItem('cart')){
                         cart = window.localStorage.getItem('cart').split(',');
-                        this.btnVisible = true;
-                    }
-                    if(cart.indexOf(String(id))==-1){
+                    };
+                    if(cart.indexOf(String(id))==1){
                         cart.push(id);
                         window.localStorage.setItem('cart', cart.join())
                         this.btnVisible = true;

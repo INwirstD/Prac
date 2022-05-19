@@ -1,0 +1,25 @@
+{
+    "name": "Internet shop",
+    "short_name": "IS",
+    "icons": [
+        {
+        "src": "/images/icons/1.png",
+        "type": "image/png",
+        "sizes": "48x48"
+    },
+    {
+        "src": "/images/icons/1.png",
+        "type": "image/png",
+        "sizes": "96x96"
+    }
+],
+"start_url": "/index.html",
+"scope": ".",
+"display": "standalone",
+"background_color": "#fff",
+"theme_color": "#3F51B5",
+"description": "-",
+"dir": "ltr",
+"lang": "en-us",
+"orientation": "portrait-primary"
+}

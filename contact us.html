@@ -11,6 +11,10 @@
 
         <meta name="viewport" content="width=320, initial-scale=1.0"/>
         <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+        <script>
+            src="https://code.jquery.com/jquery-3.6.0.js"
+            integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+            crossorigin="anonymous"</script>
         <title>ContactUS</title>
     </head>
     <body>
@@ -52,51 +56,51 @@
                     <div class="crd2">*****</div>
                 </div>
                 <!--FFFFFFFFFF-->
-                <div id="app">
-                <table >
-                    <tr>
-                                     <th> Серийный номер </th>
-                                     <th> Название продукта </th>
-                    </tr>
-                    <tr >
-                        <td>{{ cart.title}}</td>
-                        <td>{{ cart.title }}</td>
-                        <td> <button @ click = "del (index)"> Удалить </button> </td>
-                    </tr>
-                </table>
+                <div  id="app" >
+                    <table>
+                        <tr>
+                                         <th> Индекс </th>
+                                         <th> Название продукта </th>
+                        </tr>
+                        <tr v-for="(p, index) in product">
+                            <td>{{ index }}</td>
+                            <td>{{ p.title }}</td>
+                                         <td> <button @click = "del(index)"> x </button> </td>
+                        </tr>
+                    </table>
             </div>
 <!--FFFFFFFFFF-->
                 <div class="row">
                     <div class="col-5">
                         <div class ="conusb1">
                             <div class="conusblab">Company name</div>
-                            <input type="text" size="20" class="inputt">
+                            <input type="text" size="20" class="inputt" required="true" v-model="contactFields.name">
                         </div>
                         <div class ="conusb1">
                             <div class="conusblab">Position</div>
-                            <input type="text" size="20" height="100" class="inputt">
+                            <input type="text" size="20" height="100" class="inputt" v-model="contactFields.pos">
                         </div>
                         <div class ="conusb1">
                             <div class="conusblab">City</div>
-                            <input type="text" size="20" height="100" class="inputt">
+                            <input type="text" size="20" height="100" class="inputt" v-model="contactFields.city">
                         </div>
                         <div class ="conusb1">
                             <div class="conusblab">Country</div>
-                            <input type="text" size="20" height="100" class="inputt">
+                            <input type="text" size="20" height="100" class="inputt" v-model="contactFields.country">
                         </div>
                         <div class ="conusb1">
                             <div class="conusblab">Telephone</div>
-                            <input type="text" size="20" height="100" class="inputt">
+                            <input type="text" size="20" height="100" class="inputt" v-model="contactFields.tele">
                         </div>
                         <div class ="conusb1">
                             <div class="conusblab">Email</div>
-                            <input type="text" size="20" height="100" class="inputt">
+                            <input type="text" size="20" height="100" class="inputt" v-model="contactFields.email">
                         </div>
                     </div>
                     <div class="col">
                         <div class ="conusb1">
                             <div class="conusblab">You are a</div>
-                            <select name="theme" required="required"  class="inputt2">
+                            <select name="theme" required="required"  class="inputt2" >
                                 <option value="1">Сhoose an option </option>
                                 <option value="2">1</option>
                                 <option value="3">2</option>
