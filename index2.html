@@ -1,0 +1,54 @@
+<!DOCTYPE HTML Public>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel ="stylesheet" href="style.css">
+        <script>
+        const cat_btn = document.getElementById('cat_btn');
+const dog_btn = document.getElementById('dog_btn');
+const cat_result = document.getElementById('cat_result');
+const dog_result = document.getElementById('dog_result');
+
+cat_btn.addEventListener('click', getRandomCat);
+dog_btn.addEventListener('click', getRandomDog);
+
+function getRandomCat() {
+	fetch('https://aws.random.cat/meow')
+		.then(res => res.json())
+		.then(data => {
+			cat_result.innerHTML = `<img src=${data.file} alt="cat" />`
+		});
+}
+
+function getRandomDog() {
+	fetch('https://random.dog/woof.json')
+		.then(res => res.json())
+		.then(data => {
+			if(data.url.includes('.mp4')) {
+				getRandomDog();
+			}
+			else {
+				dog_result.innerHTML = `<img src=${data.url} alt="dog" />`;
+			}
+		});
+}
+            </script>
+        <title>-</title>
+    </head>
+    <body>
+        <div class="results">
+            <div id="cat_result" class="result">
+                <p>Random Cat Placeholder</p>
+            </div>
+            <div id="dog_result" class="result">
+                <p>Random Dog Placeholder</p>
+            </div>
+        </div>
+        
+        <div class="buttons">
+            <button id="cat_btn">Get Cat</button>
+            <button id="dog_btn">Get Dog</button>
+        </div>
+    </body>
+</html>
