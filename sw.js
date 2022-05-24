@@ -1,3 +1,28 @@
+self.addEventListener('push', (event) => {
+  const options = {
+      body: 'This notification was generated from a push!',
+      icon: '',
+      data: {
+          dateOfArrival: Date.now(),
+          primaryKey: '2'
+      },
+      actions: [
+          {
+              action: 'explore', title: 'Explore this new world',
+              icon: ''
+          },
+          {
+              action: 'close', title: 'Close',
+              icon: ''
+          },
+      ]
+  };
+  event.waitUntil(
+      self.registration.showNotification('Title', options)
+  )
+  });
+
+
 self.addEventListener('install', function(event) {
     console.log('[Service Worker] Installing Service Worker ...', event);
     event.waitUntil(
@@ -25,27 +50,5 @@ self.addEventListener('install', function(event) {
       )
     );
   });
-  self.addEventListener('push', (event) => {
-    const options = {
-        body: 'This notification was generated from a push!',
-        icon: '',
-        data: {
-            dateOfArrival: Date.now(),
-            primaryKey: '2'
-        },
-        actions: [
-            {
-                action: 'explore', title: 'Explore this new world',
-                icon: ''
-            },
-            {
-                action: 'close', title: 'Close',
-                icon: ''
-            },
-        ]
-    };
-    event.waitUntil(
-        self.registration.showNotification('Title', options)
-    )
-    });
+
  
