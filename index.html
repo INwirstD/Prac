@@ -12,7 +12,7 @@
             integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
             crossorigin="anonymous"</script>
         <link rel="manifest" href="/manifest.json">
-        <link  href="sw.js">
+        <script src="sw.js"></script>
         <link rel="manifest" href="/manifest.json">
         <title>Пример</title>
         <script>
@@ -34,7 +34,7 @@
             }
             if('serviceWorker' in navigator){
                 navigator.serviceWorker
-                .register('/sw.js')
+                .register('sw.js')
                 .then(function(){
                     console.log('Srivice worker registered!');
                 });
