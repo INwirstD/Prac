@@ -12,17 +12,8 @@
             integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
             crossorigin="anonymous"</script>
         <link rel="manifest" href="/manifest.json">
+        <link rel="manifest" href="/manifest.json">
         <title>Пример</title>
-        <script>
-            if ('serviceWorker' in navigator) {
-           navigator.serviceWorker
-           .register('/sw.js')
-           .then(function() {
-               console.log('Service worker registered!');
-           });
-       }
-
-        </script>
         <script>
             function askPermission() {
                 return new Promise(function(resolve, reject){
