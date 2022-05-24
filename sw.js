@@ -27,6 +27,6 @@ self.addEventListener('install', function(event) {
   });
 self.addEventListener('push', event => {
     const notification = event.data.text();
-    self.registration.showNotification(notification, {});
+    self.registration.showNotification(notification);
 });
  
