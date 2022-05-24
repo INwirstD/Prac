@@ -1,26 +1,19 @@
-self.addEventListener('push', (event) => {
-  const options = {
-      body: 'This notification was generated from a push!',
-      icon: '',
-      data: {
-          dateOfArrival: Date.now(),
-          primaryKey: '2'
-      },
-      actions: [
-          {
-              action: 'explore', title: 'Explore this new world',
-              icon: ''
-          },
-          {
-              action: 'close', title: 'Close',
-              icon: ''
-          },
-      ]
-  };
-  event.waitUntil(
-      self.registration.showNotification('Title', options)
-  )
+navigator.serviceWorker.register('sw.js');
+
+function showNotification() {
+  Notification.requestPermission(function(result) {
+    if (result === 'granted') {
+      navigator.serviceWorker.ready.then(function(registration) {
+        registration.showNotification('Vibration Sample', {
+          body: 'Buzz! Buzz!',
+          icon: '../images/touch/chrome-touch-icon-192x192.png',
+          vibrate: [200, 100, 200, 100, 200, 100, 200],
+          tag: 'vibration-sample'
+        });
+      });
+    }
   });
+}
 
 
 self.addEventListener('install', function(event) {
